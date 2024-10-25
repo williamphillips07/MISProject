@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interships Application Database Project Website</title>
+
+<link rel= "stylesheet" href= "styles.css">
+
+<body>
+
+<h1><center>Welcome to My Project Website</center></h1>
+<a href="home.html">Home</a>
+<a href="Document.html">Documents</a>
+<a href="Aboutme.html">About Me</a>
+
+<h2>Introduction</h2>
+<p>My project is a database on internships I have applied to. It utilizes 4 tables to track information in 4 stages. In Table 1, a list of companies and their industry is stored. In Table 2, details about an internship posting are stored. The internship posting comes from a company in Table 1. One data entry to note is the “Current Stage” column. This column is updated as I hear back. Whether it be a rejection email, an interview, or an offer, it is all tracked and updated. Depending on this information, if a position reaches the interview stage, then information about the interview is stored in Table 3. A very important piece of information here is the expected to hear back date. It can be hard to remember when you are supposed to hear back after an interview and storing it in this table gives a helpful reminder. Table 4 tracks offers. It tracks the compensation package and when it expires.</p>
+<p>The problem comes from visualization difficulties of my original job tracker. Originally, this data was stored in an excel sheet. While easy to edit, comparing each position in the interview stage is very difficult. It requires scrolling up and down the dozens of internships I have applied to and trying to find which ones say interview next to the “Current Stage” column I had created. Creating a conditional formatting to fill the cell with a certain color helped, but scrolling up and down looking was still annoying. While this is not a problem when the number of positions applied to is low, after a certain point it becomes problematic. It is even more difficult than this is to find offers. This borders on finding a needle in a haystack. Finding the one or two positions you received an offer for amongst the dozens applied to is challenging. Again, conditional formatting helps, but it isn’t perfect. This database is the perfect solution to these problems. By placing the information on different tables entirely, it becomes much easier to find what I’m looking for.</p>
+<p>A smaller but welcome change is the ability to generate reports for various statistics of importance. Such as positions applied to, how many interviews I am waiting to hear back from, how many rejections I have received, or how many offers I have received. Originally, this was done with excel formulas, but the ability to pull these reports from Tables will make for easier calculations. Now, I can look at a specific table rather than having to do a more sophisticated search through everything. </p>
+
+</body>
+
+</head>
+
+</html>
